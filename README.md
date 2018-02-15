@@ -32,13 +32,13 @@ display
 
 ## Useful links
 
-* [https://github.com/emberjs/ember.js/blob/v2.18.1/](the ember source code)
+* [the ember source code](https://github.com/emberjs/ember.js/blob/v2.18.1/)
 * the ember guide
-  * [https://guides.emberjs.com/v2.18.0/components/wrapping-content-in-a-component/](wrap content in a component)
-  * [https://guides.emberjs.com/v2.18.0/components/block-params/](supporting both block & inline params)
-  * [https://emberjs.com/api/ember/2.18/classes/Ember.Templates.helpers/methods/hash?anchor=hash](the hash template helper)
+  * [wrap content in a component](https://guides.emberjs.com/v2.18.0/components/wrapping-content-in-a-component/)
+  * [supporting both block & inline params](https://guides.emberjs.com/v2.18.0/components/block-params/)
+  * [the hash template helper](https://emberjs.com/api/ember/2.18/classes/Ember.Templates.helpers/methods/hash?anchor=hash)
 * ember-bootstrap custom tabs implementation
-  * [https://github.com/kaliber5/ember-bootstrap/blob/master/addon/templates/components/common/bs-tab.hbs](bs-tab.hbs)
-  * [http://www.ember-bootstrap.com/api/classes/Components.Tab.html](its usage under 'Custom Tabs' section)
+  * [bs-tab.hbs](https://github.com/kaliber5/ember-bootstrap/blob/master/addon/templates/components/common/bs-tab.hbs)
+  * [its usage under 'Custom Tabs' section](http://www.ember-bootstrap.com/api/classes/Components.Tab.html)
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
