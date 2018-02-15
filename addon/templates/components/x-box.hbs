@@ -1,0 +1,16 @@
+<pre>
+x-box start
+{{#unless config.header}}
+default HEADER
+{{/unless}}
+  {{yield
+    (hash
+      header=(component "x-box-header" config=config.header)
+      body=(component "x-box-body" config=config.body)
+    )
+  }}
+{{#unless config.body}}
+default BODY
+{{/unless}}
+x-box end
+</pre>
