@@ -1,13 +1,4 @@
-{{#if customized }}
-  {{yield
-    (hash
-      header=(component "x-box-header" title=title)
-      body=(component "x-box-body")
-    )
-  }}
-{{else}}
-{{x-box-header title=title}}
+{{x-box-header title=title tool_items=tool_items}}
 {{#x-box-body}}
 {{yield}}
 {{/x-box-body}}
-{{/if}}

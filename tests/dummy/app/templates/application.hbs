@@ -3,19 +3,11 @@
    content
   {{/x-box}}
 
-  {{#x-box customized=true title="with tools" as |box|}}
-    {{#box.header as  |header |}}
-      {{#header.tools}}
-        <li>link 1</li>
-        <li>link 2</li>
-      {{/header.tools}}
-
-      {{header}}
-    {{/box.header}}
-
-    {{#box.body}}
+  {{#x-box title="with tools" tool_items=(array 
+      (component 'link-to' 'index') 
+      "<a href='#'>link text</a>"
+    ) }}
     content
-    {{/box.body}}
   {{/x-box}}
 
 {{outlet}}

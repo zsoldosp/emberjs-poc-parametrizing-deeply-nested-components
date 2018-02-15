@@ -1,6 +1,8 @@
-{{#if (has-block) }}
+{{#if items.length }}
 <h3>tools section</h3>
 <ul>
-{{yield}}
+{{#each items as |item| }}
+<li>{{#if item.isComponent }}{{item}}{{else}}{{{item}}}{{/if}}</li>
+{{/each}}
 </ul>
 {{/if}}
