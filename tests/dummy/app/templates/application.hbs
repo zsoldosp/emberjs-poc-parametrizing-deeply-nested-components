@@ -1,12 +1,12 @@
 <h2 id="title">Welcome to Ember</h2>
 
-{{#with (hash header=true) as |config|}}
-  {{#x-box config=config as |box|}}
+  {{#x-box config=(hash
+      header=true
+    ) as |box|}}
   x-box-content-from-app
     {{#box.header}}
        custom header from app 
     {{/box.header}}
   {{/x-box}}
-{{/with}}
 
 {{outlet}}
