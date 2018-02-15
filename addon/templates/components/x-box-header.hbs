@@ -1,3 +1,2 @@
-x-box header start
-{{yield}}
-x-box header end
+<h2>{{ title }}</h2>
+{{yield (hash tools=(component "x-box-tools")) }}

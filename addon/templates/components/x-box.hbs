@@ -1,16 +1,13 @@
-<pre>
-x-box start
-{{#unless config.header}}
-default HEADER
-{{/unless}}
+{{#if customized }}
   {{yield
     (hash
-      header=(component "x-box-header" config=config.header)
-      body=(component "x-box-body" config=config.body)
+      header=(component "x-box-header" title=title)
+      body=(component "x-box-body")
     )
   }}
-{{#unless config.body}}
-default BODY
-{{/unless}}
-x-box end
-</pre>
+{{else}}
+{{x-box-header title=title}}
+{{#x-box-body}}
+{{yield}}
+{{/x-box-body}}
+{{/if}}
