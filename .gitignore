@@ -23,5 +23,5 @@ bower.json.ember-try
 package.json.ember-try
 
 # vim
+*~
 *.swp
-/bin/bash: :find: command not found
